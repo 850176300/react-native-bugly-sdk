@@ -1,8 +1,8 @@
-# react-native-bugly
+# react-native-bugly-sdk
 
 ## Getting started
 
-`$ yarn add git+https://github.com/canyara/react-native-bugly.git`
+`$ yarn add react-native-bugly-sdk`
 
 ### Mostly automatic installation
 
@@ -32,7 +32,7 @@ Bugly 支持读取 Info.plist 文件读取 SDK 初始化参数，可配置的参
 
 #### iOS
 
-node node_modules/react-native-bugly/scripts/postlink
+node node_modules/react-native-bugly-sdk/scripts/postlink
 
 #### Android
 
@@ -43,12 +43,12 @@ node node_modules/react-native-bugly/scripts/postlink
 
 2. Append the following lines to `android/settings.gradle`:
    ```
-   include ':react-native-bugly'
-   project(':react-native-bugly').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-bugly/android')
+   include ':react-native-bugly-sdk'
+   project(':react-native-bugly-sdk').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-bugly-sdk/android')
    ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
    ```
-     compile project(':react-native-bugly')
+     compile project(':react-native-bugly-sdk')
    ```
 
 ## Usage
@@ -82,7 +82,7 @@ public void onCreate() {
 ```
 
 ```javascript
-import RNBugly from "react-native-bugly";
+import RNBugly from "react-native-bugly-sdk";
 
 RNBugly.updateAppVersion(version);
 RNBugly.setUserIdentifier(userId);
