@@ -10,7 +10,8 @@
     "index.js",
     "ios",
     "android/src",
-    "android/build.gradle"
+    "android/build.gradle",
+    "RNBugly.podspec"
   ],
   "keywords": [
     "react-native"
