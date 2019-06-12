@@ -1,7 +1,7 @@
 {
   "name": "react-native-bugly-sdk",
   "version": "1.0.0",
-  "description": "",
+  "description": "tencent bugly sdk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,19 +28,5 @@
   "peerDependencies": {
     "react-native": "^0.55.4",
     "react-native-windows": "0.41.0-rc.1"
-  },
-  "rnpm": {
-    "ios": {
-      "sharedLibraries": [
-        "libz",
-        "libc++",
-        "SystemConfiguration",
-        "Security"
-      ]
-    },
-    "commands": {
-      "postlink": "node node_modules/react-native-bugly/scripts/postlink",
-      "postunlink": "node node_modules/react-native-bugly/scripts/postunlink"
-    }
   }
 }
