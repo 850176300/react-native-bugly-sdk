@@ -6,7 +6,7 @@
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-bugly`
+`$ react-native link react-native-bugly-sdk`
 
 ### 配置
 
