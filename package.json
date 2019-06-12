@@ -1,6 +1,6 @@
 {
   "name": "react-native-bugly-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tencent bugly sdk",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,7 @@
   "keywords": [
     "react-native"
   ],
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "author": "canyara",
   "license": "MIT",
   "peerDependencies": {
